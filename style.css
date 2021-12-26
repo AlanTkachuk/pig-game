@@ -55,3 +55,10 @@ main {
   font-weight: 300;
   margin-bottom: 1rem;
 }
+
+.score {
+  font-size: 8rem;
+  font-weight: 300;
+  color: #c7365f;
+  margin-bottom: auto;
+}
