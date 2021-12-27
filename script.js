@@ -60,7 +60,7 @@ btnHold.addEventListener("click", function () {
       scores[activePlayer];
     // 2. Check if player's score is >= 100
     // Declare winner
-    if (scores[activePlayer] >= 100) {
+    if (scores[activePlayer] >= 20) {
       gameActive = false;
       document
         .querySelector(`.player--${activePlayer}`)
@@ -89,9 +89,9 @@ btnNew.addEventListener("click", function () {
   player1El.classList.remove("player--winner");
   player0El.classList.add("player--active");
   player1El.classList.remove("player--active");
-  // Switch to player 0
-  // if (activePlayer === 1) switchPlayer();
-  // else {
-  //   player0El.classList.add("player--active");
-  // }
+  scores[0] = 0;
+  scores[1] = 0;
+  activePlayer = 0;
+  currentScore = 0;
+  gameActive = true;
 });
