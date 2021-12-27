@@ -23,6 +23,7 @@
 7. When player starts new game, reset scores and start at player 1
 
 ## Design & Testing
+- Chrome dev tools debugger
 
 ## Skills Practiced
 - DOM manipulation
