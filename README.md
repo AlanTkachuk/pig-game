@@ -8,8 +8,8 @@
 #### Rules
 - Two players take turn rolling the dice.
 - Each time a player rolls the dice, the roll is added to their current score.
-- However, if a player rolls a 1, they gain no points and their turn ends.
-- During a turn, players have the option to "HOLD" their current score to add to their overall score, or risk rolling again for a higher current score.
+- If a player rolls a 1, they gain no points and their turn ends.
+- If a player decides to hold their current score, it will be added to their overall score and their turn ends.
 - First to 100 points wins.
 
 ## Planning
