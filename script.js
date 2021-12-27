@@ -82,6 +82,10 @@ btnNew.addEventListener("click", function () {
   score1El.textContent = 0;
   currentScore0El.textContent = 0;
   currentScore1El.textContent = 0;
+  scores[0] = 0;
+  scores[1] = 0;
+  activePlayer = 0;
+  currentScore = 0;
 
   // Reset styles
   diceEl.classList.add("hidden");
@@ -89,9 +93,6 @@ btnNew.addEventListener("click", function () {
   player1El.classList.remove("player--winner");
   player0El.classList.add("player--active");
   player1El.classList.remove("player--active");
-  scores[0] = 0;
-  scores[1] = 0;
-  activePlayer = 0;
-  currentScore = 0;
+
   gameActive = true;
 });
