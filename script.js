@@ -87,10 +87,11 @@ btnNew.addEventListener("click", function () {
   diceEl.classList.add("hidden");
   player0El.classList.remove("player--winner");
   player1El.classList.remove("player--winner");
-
+  player0El.classList.add("player--active");
+  player1El.classList.remove("player--active");
   // Switch to player 0
-  if (activePlayer === 1) switchPlayer();
-  else {
-    player0El.classList.add("player--active");
-  }
+  // if (activePlayer === 1) switchPlayer();
+  // else {
+  //   player0El.classList.add("player--active");
+  // }
 });
