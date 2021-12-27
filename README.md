@@ -22,6 +22,12 @@
 6. If player score reaches 100, display winner and stop game
 7. When player starts new game, reset scores and start at player 1
 
+#### Styling
+- Gradient background
+- Dice images appear on roll
+- Active player has different style
+- Buttons have dynamic shadows
+
 ## Design & Testing
 - Chrome dev tools debugger
 
