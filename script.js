@@ -74,3 +74,23 @@ btnHold.addEventListener("click", function () {
     }
   }
 });
+
+// Reset event
+btnNew.addEventListener("click", function () {
+  // Reset scores
+  score0El.textContent = 0;
+  score1El.textContent = 0;
+  currentScore0El.textContent = 0;
+  currentScore1El.textContent = 0;
+
+  // Reset styles
+  diceEl.classList.add("hidden");
+  player0El.classList.remove("player--winner");
+  player1El.classList.remove("player--winner");
+
+  // Switch to player 0
+  if (activePlayer === 1) switchPlayer();
+  else {
+    player0El.classList.add("player--active");
+  }
+});
